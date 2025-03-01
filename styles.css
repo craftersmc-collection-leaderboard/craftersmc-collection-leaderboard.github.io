@@ -156,28 +156,37 @@ main {
 }
 
 #item-list ul {
-    list-style: none;
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
     padding: 0;
 }
 
 #item-list li {
-    margin: 8px 0;
+    flex: 0 0 calc(50% - 10px); 
+    margin: 5px; 
+    list-style: none;
 }
 
 #item-list button {
+    width: 100%; 
     display: flex;
     align-items: center;
     color: #ffffff;
-    background-color: #444444; 
+    background-color: #444444;
     padding: 8px 16px;
     border: 2px solid #000000;
     cursor: pointer;
     transition: background-color 0.3s;
-    width: 100%;
-    text-align: left;
+    font-family: 'Press Start 2P', cursive;
     font-size: 12px;
 }
 
+#item-list button img {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
 #item-list button:hover, #item-list button.selected {
     background-color: #00cc00; 
 }
@@ -198,11 +207,12 @@ main {
 
 @media (max-width: 768px) {
     main {
-        flex-direction: column;
+        flex-direction: grid;
     }
 
     nav ul {
-        flex-direction: column;
+        padding-left: 25px;
+        flex-direction: grid;
         align-items: center;
     }
 
