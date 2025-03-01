@@ -4,6 +4,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const categoryOverviewSection = document.getElementById('category-overview');
     const itemListSection = document.getElementById('item-list');
     const leaderboardSection = document.getElementById('leaderboard');
+    const discoverText = document.getElementById('discover-text');
+    let isPixelated = false; 
 
     showDefaultView();
 
@@ -24,103 +26,119 @@ document.addEventListener('DOMContentLoaded', () => {
         leaderboardSection.innerHTML = ''; 
     });
 
+    discoverText.addEventListener('click', () => {
+        isPixelated = !isPixelated;
+        document.body.classList.toggle('pixelated-font', isPixelated);
+    });
+
     function showDefaultView() {
         let overviewHTML = '';
         for (const category in data) {
             overviewHTML += `
-                <h2 data-category="${category}">
-                    <img src="images/${category.toLowerCase()}.png" alt="${category} Icon">
-                    ${category.charAt(0).toUpperCase() + category.slice(1)}
-                </h2>
-                <table>
-                    <tr>
-                        <th>Item</th>
-                        <th>#1 Player</th>
-                        <!-- Removed the Items Collected/XP Collected column from the main page -->
-                    </tr>
+                <div class="category-container">
+                    <h2 class="category-header" data-category="${category}">
+                        <img src="images/${category.toLowerCase()}.png" alt="${category} Icon">
+                        ${category.charAt(0).toUpperCase() + category.slice(1)}
+                    </h2>
+                    <div class="category-table hidden">
+                        <table>
+                            <tr>
+                                <th>Item</th>
+                                <th>Top Player</th>
+                                <th>Item</th>
+                                <th>Top Player</th>
+                            </tr>
             `;
-            data[category].items.forEach(item => {
-                const topPlayer = data[category].leaderboards[item][0]; 
+
+            const items = data[category].items;
+            for (let i = 0; i < items.length; i += 2) {
+                const item1 = items[i];
+                const item2 = items[i + 1] || null; 
+                const topPlayer1 = data[category].leaderboards[item1][0]?.player || 'Unknown';
+                const topPlayer2 = item2 ? data[category].leaderboards[item2][0]?.player || 'Unknown' : '';
                 overviewHTML += `
-                    <tr>
-                        <td data-category="${category}" data-item="${item}">
-                            <img src="images/${item.toLowerCase()}.png" alt="${item} Icon">
-                            ${item}
-                        </td>
-                        <td>${topPlayer.player || 'Unknown'}</td>
-                        <!-- Removed the quantity column from the main page -->
-                    </tr>
+                            <tr>
+                                <td data-category="${category}" data-item="${item1}">
+                                    <img src="images/${item1.toLowerCase()}.png" alt="${item1} Icon">
+                                    ${item1}
+                                </td>
+                                <td>${topPlayer1}</td>
+                                <td data-category="${category}" data-item="${item2 || ''}">
+                                    ${item2 ? `
+                                        <img src="images/${item2.toLowerCase()}.png" alt="${item2} Icon">
+                                        ${item2}
+                                    ` : ''}
+                                </td>
+                                <td>${topPlayer2}</td>
+                            </tr>
                 `;
-            });
-            overviewHTML += '</table>';
+            }
+            overviewHTML += `
+                        </table>
+                    </div>
+                </div>
+            `;
         }
         categoryOverviewSection.innerHTML = overviewHTML;
 
-        const categoryHeaders = categoryOverviewSection.querySelectorAll('h2');
+        const categoryHeaders = categoryOverviewSection.querySelectorAll('.category-header');
         categoryHeaders.forEach(header => {
-            header.addEventListener('click', (e) => {
-                e.preventDefault();
-                const category = header.dataset.category;
-                displayItems(category);
-                categoryOverviewSection.innerHTML = ''; 
-                leaderboardSection.innerHTML = ''; 
+            header.addEventListener('click', () => {
+                const tableDiv = header.nextElementSibling;
+                tableDiv.classList.toggle('hidden');
             });
         });
 
-        const itemCells = categoryOverviewSection.querySelectorAll('td[data-item]');
+        const itemCells = categoryOverviewSection.querySelectorAll('td[data-item]:not(:empty)');
         itemCells.forEach(cell => {
             cell.addEventListener('click', (e) => {
                 e.preventDefault();
                 const category = cell.dataset.category;
                 const item = cell.dataset.item;
-                displayItems(category); 
-                displayLeaderboard(category, item); 
+                displayItems(category);
+                displayLeaderboard(category, item);
                 categoryOverviewSection.innerHTML = ''; 
 
                 const itemButtons = itemListSection.querySelectorAll('button');
-                itemButtons.forEach(btn => btn.classList.remove('selected')); 
+                itemButtons.forEach(btn => btn.classList.remove('selected'));
                 const selectedButton = itemListSection.querySelector(`button[data-item="${item}"]`);
-                if (selectedButton) {
-                    selectedButton.classList.add('selected'); 
-                }
+                if (selectedButton) selectedButton.classList.add('selected');
             });
         });
     }
 
     function displayItems(category) {
-    const items = data[category].items;
-    itemListSection.innerHTML = `
-        <h2>${category.charAt(0).toUpperCase() + category.slice(1)}</h2>
-        <ul>
-            ${items.map(item => `
-                <li>
-                    <button data-category="${category}" data-item="${item}">
-                        <img src="images/${item.toLowerCase()}.png" alt="${item} Icon">
-                        ${item}
-                    </button>
-                </li>
-            `).join('')}
-        </ul>
-    `;
+        const items = data[category].items;
+        itemListSection.innerHTML = `
+            <h2>${category.charAt(0).toUpperCase() + category.slice(1)}</h2>
+            <ul>
+                ${items.map(item => `
+                    <li>
+                        <button data-category="${category}" data-item="${item}">
+                            <img src="images/${item.toLowerCase()}.png" alt="${item} Icon">
+                            ${item}
+                        </button>
+                    </li>
+                `).join('')}
+            </ul>
+        `;
 
-    const itemButtons = itemListSection.querySelectorAll('button');
-    itemButtons.forEach(button => {
-        button.addEventListener('click', (e) => {
-            e.preventDefault();
-            const category = button.dataset.category;
-            const item = button.dataset.item;
+        const itemButtons = itemListSection.querySelectorAll('button');
+        itemButtons.forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.preventDefault();
+                const category = button.dataset.category;
+                const item = button.dataset.item;
+                itemButtons.forEach(btn => btn.classList.remove('selected'));
+                button.classList.add('selected');
+                displayLeaderboard(category, item);
 
-            itemButtons.forEach(btn => btn.classList.remove('selected'));
-
-            button.classList.add('selected');
-            displayLeaderboard(category, item);
-
-            if (window.innerWidth <= 768) {
-                leaderboardSection.scrollIntoView({ behavior: 'smooth' });
-            }
+                if (window.innerWidth <= 768) {
+                    leaderboardSection.scrollIntoView({ behavior: 'smooth' });
+                }
+            });
         });
-    });
-}
+    }
 
     function displayLeaderboard(category, item) {
         const leaderboard = data[category].leaderboards[item];
@@ -130,7 +148,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <th>Rank</th>
                     <th>Player</th>
                     <th>${category === 'slayer' ? 'XP Collected' : 'Items Collected'}</th>
-                    <th>Date Submitted</th>  <!-- Keeping Date Submitted in detailed tables -->
+                    <th>Date Submitted</th>
                 </tr>
         `;
         leaderboard.forEach(entry => {
@@ -140,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <td>${entry.rank}</td>
                     <td>${entry.player || 'Unknown'}</td>
                     <td>${entry.quantity || ''}</td>
-                    <td>${entry.date || 'N/A'}</td>  <!-- Keeping date in detailed tables -->
+                    <td>${entry.date || 'N/A'}</td>
                 </tr>
             `;
         });
