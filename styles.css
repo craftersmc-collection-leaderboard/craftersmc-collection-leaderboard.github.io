@@ -1,0 +1,243 @@
+body {
+    background-color: #333333; 
+    color: #ffffff; 
+    font-family: Sans, bold;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    text-shadow: 2px 2px #000000; 
+    margin-bottom: 10px;
+    cursor: pointer; 
+}
+
+h1:hover {
+    color: #00cc00; 
+}
+
+p {
+    font-size: 12px;
+    color: #cccccc; 
+    margin-bottom: 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav li {
+    margin: 5px 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    background-color: #006600; 
+    padding: 10px 20px;
+    border: 2px solid #000000; 
+    display: block;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #00cc00; 
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+#category-overview, #item-list, #leaderboard {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+#category-overview:not(:empty) {
+    display: block;
+}
+
+#category-overview:empty {
+    display: none; 
+}
+
+#item-list, #leaderboard {
+    flex: 1; 
+}
+
+#category-overview h2, #item-list h2, #leaderboard h3 {
+    font-size: 18px;
+    text-shadow: 2px 2px #000000;
+    margin-bottom: 15px;
+    cursor: pointer; 
+    display: flex;
+    align-items: center;
+}
+
+#category-overview h2:hover {
+    color: #00cc00; 
+}
+
+#category-overview table, #leaderboard table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #444444;
+    border: 2px solid #000000;
+}
+
+#category-overview th, #category-overview td, th, td {
+    padding: 10px;
+    border: 1px solid #000000;
+    text-align: center;
+    font-size: 12px;
+    white-space: nowrap; 
+}
+
+#category-overview td[data-item] {
+    cursor: pointer; 
+}
+
+#category-overview td[data-item]:hover {
+    background-color: #444444; 
+    color: #00cc00; 
+}
+
+#category-overview th, #category-overview td:not([data-item]) {
+    cursor: default; 
+}
+
+#category-overview th, th {
+    background-color: #006600;
+}
+
+.rank1 {
+    background-color: #ffd700; 
+    color: #000000;
+}
+
+.rank2 {
+    background-color: #c0c0c0; 
+    color: #000000;
+}
+
+.rank3 {
+    background-color: #cd7f32; 
+    color: #000000;
+}
+
+.rank-icon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.note {
+    font-size: 10px;
+    color: #cccccc;
+    margin-top: 10px;
+}
+
+#item-list ul {
+    list-style: none;
+    padding: 0;
+}
+
+#item-list li {
+    margin: 8px 0;
+}
+
+#item-list button {
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+    background-color: #444444; 
+    padding: 8px 16px;
+    border: 2px solid #000000;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+    text-align: left;
+    font-size: 12px;
+}
+
+#item-list button:hover, #item-list button.selected {
+    background-color: #00cc00; 
+}
+
+#item-list button img, #category-overview h2 img, #category-overview td img {
+    width: 24px; 
+    height: 24px; 
+    margin-right: 10px;
+}
+
+@media (min-width: 1200px) {
+    #category-overview td {
+        font-size: 14px; 
+        max-width: none; 
+        min-width: 150px; 
+    }
+}
+
+@media (max-width: 768px) {
+    main {
+        flex-direction: column;
+    }
+
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav li {
+        margin: 5px 0;
+    }
+
+    #item-list, #leaderboard {
+        width: 100%;
+    }
+}
+
+footer {
+    background-color: #333333; 
+    border-top: 2px solid #000000; 
+    text-align: center;
+    padding: 15px 20px;
+    margin-top: 20px;
+}
+
+footer p {
+    font-size: 12px;
+    color: #ffffff; 
+    margin: 0;
+}
+
+footer a {
+    color: #ffffff; 
+    text-decoration: none; 
+    background-color: #006600; 
+    padding: 5px 10px; 
+    border: 2px solid #000000; 
+    transition: background-color 0.3s; 
+}
+
+footer a:hover {
+    background-color: #00cc00; 
+}
