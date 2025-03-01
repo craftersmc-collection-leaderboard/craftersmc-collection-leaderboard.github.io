@@ -1,8 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body {
     background-color: #333333; 
     color: #ffffff; 
-    font-family: Sans, bold;
-    font-weight: bold;
+    font-family: 'Sans', cursive;
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -43,13 +44,20 @@ nav li {
 }
 
 nav a {
+    display: flex;
+    align-items: center;
     text-decoration: none;
     color: #ffffff;
     background-color: #006600; 
     padding: 10px 20px;
     border: 2px solid #000000; 
-    display: block;
     transition: background-color 0.3s;
+}
+
+nav a img {
+    width: 24px; 
+    height: 24px;
+    margin-right: 10px; 
 }
 
 nav a:hover {
@@ -82,27 +90,50 @@ main {
     flex: 1; 
 }
 
-#category-overview h2, #item-list h2, #leaderboard h3 {
+#category-overview h2.category-header, #item-list h2, #leaderboard h3 {
     font-size: 18px;
     text-shadow: 2px 2px #000000;
     margin-bottom: 15px;
     cursor: pointer; 
     display: flex;
     align-items: center;
+    padding: 10px; 
+    background-color: #444444; 
+    border: 2px solid #000000; 
+    transition: background-color 0.3s;
 }
 
-#category-overview h2:hover {
+#category-overview h2.category-header:hover {
+    background-color: #666666; 
     color: #00cc00; 
 }
 
-#category-overview table, #leaderboard table {
+#category-overview h2.category-header:after {
+    content: ' ▼'; 
+    margin-left: 10px;
+    font-size: 12px;
+}
+
+#category-overview .category-table.hidden h2.category-header:after {
+    content: ' ►'; 
+}
+
+.hidden {
+    display: none;
+}
+
+.category-container {
+    margin-bottom: 20px;
+}
+
+.category-table table, #leaderboard table {
     width: 100%;
     border-collapse: collapse;
     background-color: #444444;
     border: 2px solid #000000;
 }
 
-#category-overview th, #category-overview td, th, td {
+.category-table th, .category-table td, #leaderboard th, #leaderboard td {
     padding: 10px;
     border: 1px solid #000000;
     text-align: center;
@@ -110,49 +141,21 @@ main {
     white-space: nowrap; 
 }
 
-#category-overview td[data-item] {
+.category-table th, #leaderboard th {
+    background-color: #006600;
+}
+
+.category-table td[data-item]:not(:empty), #leaderboard td[data-item]:not(:empty) {
     cursor: pointer; 
 }
 
-#category-overview td[data-item]:hover {
+.category-table td[data-item]:not(:empty):hover, #leaderboard td[data-item]:not(:empty):hover {
     background-color: #444444; 
     color: #00cc00; 
 }
 
-#category-overview th, #category-overview td:not([data-item]) {
+.category-table th, .category-table td:not([data-item]), #leaderboard th, #leaderboard td:not([data-item]) {
     cursor: default; 
-}
-
-#category-overview th, th {
-    background-color: #006600;
-}
-
-.rank1 {
-    background-color: #ffd700; 
-    color: #000000;
-}
-
-.rank2 {
-    background-color: #c0c0c0; 
-    color: #000000;
-}
-
-.rank3 {
-    background-color: #cd7f32; 
-    color: #000000;
-}
-
-.rank-icon {
-    width: 16px;
-    height: 16px;
-    vertical-align: middle;
-    margin-right: 5px;
-}
-
-.note {
-    font-size: 10px;
-    color: #cccccc;
-    margin-top: 10px;
 }
 
 #item-list ul {
@@ -173,20 +176,14 @@ main {
     display: flex;
     align-items: center;
     color: #ffffff;
-    background-color: #444444;
+    background-color: #444444; 
     padding: 8px 16px;
     border: 2px solid #000000;
     cursor: pointer;
     transition: background-color 0.3s;
-    font-family: 'Press Start 2P', cursive;
     font-size: 12px;
 }
 
-#item-list button img {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
-}
 #item-list button:hover, #item-list button.selected {
     background-color: #00cc00; 
 }
@@ -197,32 +194,25 @@ main {
     margin-right: 10px;
 }
 
-@media (min-width: 1200px) {
-    #category-overview td {
-        font-size: 14px; 
-        max-width: none; 
-        min-width: 150px; 
-    }
+.rank1 {
+    background-color: #ffd700; 
+    color: #000000;
 }
 
-@media (max-width: 768px) {
-    main {
-        flex-direction: grid;
-    }
+.rank2 {
+    background-color: #c0c0c0; 
+    color: #000000;
+}
 
-    nav ul {
-        padding-left: 25px;
-        flex-direction: grid;
-        align-items: center;
-    }
+.rank3 {
+    background-color: #cd7f32; 
+    color: #000000;
+}
 
-    nav li {
-        margin: 5px 0;
-    }
-
-    #item-list, #leaderboard {
-        width: 100%;
-    }
+.note {
+    font-size: 10px;
+    color: #cccccc;
+    margin-top: 10px;
 }
 
 footer {
@@ -250,4 +240,16 @@ footer a {
 
 footer a:hover {
     background-color: #00cc00; 
+}
+
+@media (max-width: 768px) {
+    .category-table table, #leaderboard table {
+        display: block; 
+        overflow-x: auto; 
+    }
+
+    .category-table th, .category-table td, #leaderboard th, #leaderboard td {
+        display: table-cell; 
+        min-width: 100px; 
+    }
 }
