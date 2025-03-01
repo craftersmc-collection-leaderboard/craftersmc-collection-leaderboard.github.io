@@ -1,24 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
-
 body {
-    background-color: #333333; 
-    color: #ffffff; 
-    font-family: 'Sans';
     margin: 0;
-    padding: 0;
+color: #ffffff;
+    height: 100vh;
+    background: url('images/background.png') no-repeat center center fixed;
+    background-size: cover;
+    position: relative; 
+    font-family: sans-serif; 
     line-height: 1.6;
+}
+
+body::before {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit; 
+    filter: blur(10px); 
+    z-index: -1; 
+}
+
+body::after {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(51, 51, 51, 0.6); 
+    z-index: -1; 
 }
 
 header {
     text-align: center;
     padding: 20px;
+    position: relative; 
 }
 
 h1 {
-    font-size: 24px;
+    font-size: 44px;
     text-shadow: 2px 2px #000000; 
     margin-bottom: 10px;
     cursor: pointer; 
+    text-align: center;
 }
 
 h1:hover {
@@ -26,7 +51,7 @@ h1:hover {
 }
 
 p {
-    font-size: 12px;
+    font-size: 24px;
     color: #cccccc; 
     margin-bottom: 20px;
 }
@@ -97,6 +122,7 @@ main {
     cursor: pointer; 
     display: flex;
     align-items: center;
+    text-align: center;
     padding: 10px; 
     background-color: #444444; 
     border: 2px solid #000000; 
@@ -138,6 +164,7 @@ main {
     border: 1px solid #000000;
     text-align: center;
     font-size: 12px;
+    font-family: sans-serif; 
     white-space: nowrap; 
 }
 
@@ -181,6 +208,7 @@ main {
     border: 2px solid #000000;
     cursor: pointer;
     transition: background-color 0.3s;
+    font-family: sans-serif; 
     font-size: 12px;
 }
 
@@ -227,6 +255,7 @@ footer p {
     font-size: 12px;
     color: #ffffff; 
     margin: 0;
+    font-family: sans-serif; 
 }
 
 footer a {
@@ -236,6 +265,7 @@ footer a {
     padding: 5px 10px; 
     border: 2px solid #000000; 
     transition: background-color 0.3s; 
+    font-family: sans-serif; 
 }
 
 footer a:hover {
@@ -243,13 +273,41 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
-    .category-table table, #leaderboard table {
+    .category-table table {
+        display: table; 
+    }
+
+    .category-table th:nth-child(3),
+    .category-table th:nth-child(4),
+    .category-table td:nth-child(3),
+    .category-table td:nth-child(4) {
+        display: none; 
+    }
+
+    .category-table th,
+    .category-table td {
+        display: table-cell; 
+        min-width: 150px; 
+    }
+
+    #leaderboard table {
         display: block; 
         overflow-x: auto; 
     }
 
-    .category-table th, .category-table td, #leaderboard th, #leaderboard td {
+    #leaderboard th, #leaderboard td {
         display: table-cell; 
         min-width: 100px; 
+    }
+}
+
+@media (min-width: 769px) {
+    .category-table table {
+        display: table; 
+    }
+
+    .category-table th,
+    .category-table td {
+        display: table-cell; 
     }
 }
