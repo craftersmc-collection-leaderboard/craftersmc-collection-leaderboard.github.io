@@ -36,7 +36,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="category-table hidden">
                         <table>
                             <tr>
-                                <th>Item</th>
+                                <th>Collection</th>
                                 <th>Top Player</th>
                             </tr>
             `;
