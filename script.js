@@ -4,8 +4,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const categoryOverviewSection = document.getElementById('category-overview');
     const itemListSection = document.getElementById('item-list');
     const leaderboardSection = document.getElementById('leaderboard');
-    const discoverText = document.getElementById('discover-text');
-    let isPixelated = false; 
 
     showDefaultView();
 
@@ -26,11 +24,6 @@ document.addEventListener('DOMContentLoaded', () => {
         leaderboardSection.innerHTML = ''; 
     });
 
-    discoverText.addEventListener('click', () => {
-        isPixelated = !isPixelated;
-        document.body.classList.toggle('pixelated-font', isPixelated);
-    });
-
     function showDefaultView() {
         let overviewHTML = '';
         for (const category in data) {
@@ -45,34 +38,22 @@ document.addEventListener('DOMContentLoaded', () => {
                             <tr>
                                 <th>Item</th>
                                 <th>Top Player</th>
-                                <th>Item</th>
-                                <th>Top Player</th>
                             </tr>
             `;
 
             const items = data[category].items;
-            for (let i = 0; i < items.length; i += 2) {
-                const item1 = items[i];
-                const item2 = items[i + 1] || null; 
-                const topPlayer1 = data[category].leaderboards[item1][0]?.player || 'Unknown';
-                const topPlayer2 = item2 ? data[category].leaderboards[item2][0]?.player || 'Unknown' : '';
+            items.forEach(item => {
+                const topPlayer = data[category].leaderboards[item][0]?.player || 'Unknown';
                 overviewHTML += `
                             <tr>
-                                <td data-category="${category}" data-item="${item1}">
-                                    <img src="images/${item1.toLowerCase()}.png" alt="${item1} Icon">
-                                    ${item1}
+                                <td data-category="${category}" data-item="${item}">
+                                    <img src="images/${item.toLowerCase()}.png" alt="${item} Icon">
+                                    ${item}
                                 </td>
-                                <td>${topPlayer1}</td>
-                                <td data-category="${category}" data-item="${item2 || ''}">
-                                    ${item2 ? `
-                                        <img src="images/${item2.toLowerCase()}.png" alt="${item2} Icon">
-                                        ${item2}
-                                    ` : ''}
-                                </td>
-                                <td>${topPlayer2}</td>
+                                <td>${topPlayer}</td>
                             </tr>
                 `;
-            }
+            });
             overviewHTML += `
                         </table>
                     </div>
@@ -89,7 +70,7 @@ document.addEventListener('DOMContentLoaded', () => {
             });
         });
 
-        const itemCells = categoryOverviewSection.querySelectorAll('td[data-item]:not(:empty)');
+        const itemCells = categoryOverviewSection.querySelectorAll('td[data-item]');
         itemCells.forEach(cell => {
             cell.addEventListener('click', (e) => {
                 e.preventDefault();
@@ -103,6 +84,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 itemButtons.forEach(btn => btn.classList.remove('selected'));
                 const selectedButton = itemListSection.querySelector(`button[data-item="${item}"]`);
                 if (selectedButton) selectedButton.classList.add('selected');
+
+                if (window.innerWidth <= 768) {
+                    leaderboardSection.scrollIntoView({ behavior: 'smooth' });
+                }
             });
         });
     }
