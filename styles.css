@@ -1,6 +1,5 @@
 body {
     margin: 0;
-color: #ffffff;
     height: 100vh;
     background: url('images/background.png') no-repeat center center fixed;
     background-size: cover;
@@ -39,15 +38,38 @@ header {
 }
 
 h1 {
-    font-size: 44px;
+    font-size: 36px;
     text-shadow: 2px 2px #000000; 
     margin-bottom: 10px;
     cursor: pointer; 
     text-align: center;
+    color: #ffffff; 
 }
 
 h1:hover {
-    color: #00cc00; 
+    color: #2FADF2; 
+}
+
+h1#home-link {
+    font-size: 36px;
+    text-shadow: 2px 2px #000000; 
+    margin-bottom: 10px;
+    cursor: pointer; 
+    color: #ffffff; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+h1#home-link img {
+    width: 50px; 
+    height: 50px; 
+    margin-right: 10px; 
+    vertical-align: middle; 
+}
+
+h1#home-link:hover {
+    color: #2FADF2; 
 }
 
 p {
@@ -73,7 +95,7 @@ nav a {
     align-items: center;
     text-decoration: none;
     color: #ffffff;
-    background-color: #006600; 
+    background-color: #2FADF2; 
     padding: 10px 20px;
     border: 2px solid #000000; 
     transition: background-color 0.3s;
@@ -86,7 +108,7 @@ nav a img {
 }
 
 nav a:hover {
-    background-color: #00cc00; 
+    background-color: #1E87C4; 
 }
 
 main {
@@ -95,12 +117,14 @@ main {
     padding: 20px;
     max-width: 1200px;
     margin: 0 auto;
+    position: relative; 
 }
 
 #category-overview, #item-list, #leaderboard {
     flex: 1;
     min-width: 300px;
     padding: 20px;
+    position: relative; 
 }
 
 #category-overview:not(:empty) {
@@ -127,21 +151,24 @@ main {
     background-color: #444444; 
     border: 2px solid #000000; 
     transition: background-color 0.3s;
+    color: #ffffff; 
 }
 
 #category-overview h2.category-header:hover {
     background-color: #666666; 
-    color: #00cc00; 
+    color: #2FADF2; 
 }
 
 #category-overview h2.category-header:after {
     content: ' ▼'; 
     margin-left: 10px;
     font-size: 12px;
+    color: #ffffff; 
 }
 
 #category-overview .category-table.hidden h2.category-header:after {
     content: ' ►'; 
+    color: #ffffff; 
 }
 
 .hidden {
@@ -152,8 +179,13 @@ main {
     margin-bottom: 20px;
 }
 
+.category-table {
+    text-align: center; 
+}
+
 .category-table table, #leaderboard table {
-    width: 100%;
+    width: 90%; 
+    margin: 0 auto; 
     border-collapse: collapse;
     background-color: #444444;
     border: 2px solid #000000;
@@ -162,14 +194,15 @@ main {
 .category-table th, .category-table td, #leaderboard th, #leaderboard td {
     padding: 10px;
     border: 1px solid #000000;
-    text-align: center;
+    text-align: left; 
     font-size: 12px;
     font-family: sans-serif; 
     white-space: nowrap; 
+    color: #ffffff; 
 }
 
 .category-table th, #leaderboard th {
-    background-color: #006600;
+    background-color: #2FADF2; 
 }
 
 .category-table td[data-item]:not(:empty), #leaderboard td[data-item]:not(:empty) {
@@ -178,7 +211,7 @@ main {
 
 .category-table td[data-item]:not(:empty):hover, #leaderboard td[data-item]:not(:empty):hover {
     background-color: #444444; 
-    color: #00cc00; 
+    color: #2FADF2; 
 }
 
 .category-table th, .category-table td:not([data-item]), #leaderboard th, #leaderboard td:not([data-item]) {
@@ -213,7 +246,7 @@ main {
 }
 
 #item-list button:hover, #item-list button.selected {
-    background-color: #00cc00; 
+    background-color: #2FADF2; 
 }
 
 #item-list button img, #category-overview h2 img, #category-overview td img {
@@ -249,6 +282,7 @@ footer {
     text-align: center;
     padding: 15px 20px;
     margin-top: 20px;
+    position: relative; 
 }
 
 footer p {
@@ -261,7 +295,7 @@ footer p {
 footer a {
     color: #ffffff; 
     text-decoration: none; 
-    background-color: #006600; 
+    background-color: #2FADF2; 
     padding: 5px 10px; 
     border: 2px solid #000000; 
     transition: background-color 0.3s; 
@@ -269,7 +303,7 @@ footer a {
 }
 
 footer a:hover {
-    background-color: #00cc00; 
+    background-color: #1E87C4; 
 }
 
 @media (max-width: 768px) {
