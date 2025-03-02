@@ -99,6 +99,7 @@ nav a {
     padding: 10px 20px;
     border: 2px solid #000000; 
     transition: background-color 0.3s;
+    border-radius: 16px;
 }
 
 nav a img {
