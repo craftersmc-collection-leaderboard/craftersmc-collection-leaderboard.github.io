@@ -533,10 +533,10 @@ const data = {
                 {"rank": 4, "player": "Itzomkar1232891", "quantity": "17,000,000", "date": "28/02/2025"},
                 {"rank": 5, "player": "SoundClover8088", "quantity": null, "date": "28/02/2025"},
                 {"rank": 6, "player": "uatitan580", "quantity": null, "date": "28/02/2025"},
-                {"rank": 7, "player": "Arslaan9477", "quantity": "11,700,000", "date": "09/01/2025"},
-                {"rank": 8, "player": null, "quantity": null, "date": null},
+                {"rank": 7, "player": null, "quantity": null, "date": null},
+                {"rank": 8, "player": "Arslaan9477", "quantity": "12,500,000", "date": "03/03/2025"},
                 {"rank": 9, "player": "Shubh_gamer9497", "quantity": "10,600,000", "date": "31/12/2024"},
-                {"rank": 10, "player": "DRONZAR_OP", "quantity": "10,300,000", "date": "31/12/2024"}
+                {"rank": 10, "player": "Herejefferson", "quantity": "11,250,000", "date": "22/02/2025"}
             ],
             "Wolf Slayer": [
                 {"rank": 1, "player": "SphinxWraith", "quantity": "6,000,000+", "date": "28/02/2025"},
