@@ -39,7 +39,7 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Pumpkin": [
-            {"rank": 1, "player": "Madstar0401YT", "quantity": "39,000,000", "date": "08/12/2024"},
+            {"rank": 1, "player": "Madstar0401YT", "quantity": "62,000,000", "date": "02/03/2025"},
             {"rank": 2, "player": "HeGzoStRqFe", "quantity": "30,000,000", "date": "08/12/2024"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": "GMG_games", "quantity": "~25,000,000", "date": "08/11/2024"},
@@ -147,8 +147,8 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Leather": [
-            {"rank": 1, "player": "AweomedudeW10", "quantity": null, "date": "07/02/2025"},
-            {"rank": 2, "player": "sagnikisawesome", "quantity": null, "date": "28/02/2025"},
+            {"rank": 1, "player": "sagnikisawesome", "quantity": "4,000,000+", "date": "02/03/2025"},
+            {"rank": 2, "player": "AweomedudeW10", "quantity": "4,000,000+", "date": "02/03/2025"},
             {"rank": 3, "player": "Icezane5011", "quantity": null, "date": "28/02/2025"},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
