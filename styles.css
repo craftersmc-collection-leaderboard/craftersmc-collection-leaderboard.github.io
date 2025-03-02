@@ -17,6 +17,8 @@ body::before {
     height: 100%;
     background: inherit; 
     filter: blur(10px); 
+    z-index: -1
+    pointer-events: none;
 }
 
 body::after {
