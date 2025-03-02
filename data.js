@@ -544,9 +544,9 @@ const data = {
                 {"rank": 3, "player": "HeGzoStRqFe", "quantity": "3,000,000+", "date": "18/11/2024"},
                 {"rank": 4, "player": "Itzomkar1232891", "quantity": null, "date": "18/11/2024"},
                 {"rank": 5, "player": "SoundClover8088", "quantity": null, "date": "18/11/2024"},
-                {"rank": 6, "player": "uatitan580", "quantity": "1,850,000", "date": "31/12/2024"},
-                {"rank": 7, "player": "Duebacon2007102", "quantity": null, "date": "29/12/2024"},
-                {"rank": 8, "player": null, "quantity": null, "date": null},
+                {"rank": 6, "player": "Shakilbaby", "quantity": "2,300,000", "date": "03/03/2025"},
+                {"rank": 7, "player": "Duebacon2007102", "quantity": null, "date": "03/03/2025"},
+                {"rank": 8, "player": "uatitan580", "quantity": 1,900,000, "date": null},
                 {"rank": 9, "player": null, "quantity": null, "date": "20/12/2024"},
                 {"rank": 10, "player": "C4P2L", "quantity": null, "date": "20/12/2024"}
             ]
