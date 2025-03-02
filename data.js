@@ -249,7 +249,7 @@ const data = {
         ],
         "Iron Ingot": [
             {"rank": 1, "player": null, "quantity": null, "date": null},
-            {"rank": 2, "player": "null", "quantity": "null", "date": "null"},
+            {"rank": 2, "player": null, "quantity": null, "date": null},
             {"rank": 3, "player": "ZepthyrX", "quantity": "18,000,000", "date": "13/11/2024"},
             {"rank": 4, "player": "Emircanyilmaz", "quantity": "17,000,000", "date": "13/11/2024"},
             {"rank": 5, "player": "Exnned", "quantity": "16,500,000", "date": "13/11/2024"},
