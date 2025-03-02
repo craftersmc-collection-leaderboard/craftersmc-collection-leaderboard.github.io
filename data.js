@@ -51,7 +51,7 @@ const data = {
             {"rank": 10, "player": "IRONMAN1237721", "quantity": null, "date": "18/11/2024"}
         ],
         "Melon": [
-            {"rank": 1, "player": "Lenny1sco0l", "quantity": null, "date": "09/11/2024"},
+            {"rank": 1, "player": "Lenny1sCo0l", "quantity": null, "date": "09/11/2024"},
             {"rank": 2, "player": null, "quantity": null, "date": null},
             {"rank": 3, "player": "Mrbase101", "quantity": "90,000,000", "date": "29/12/2024"},
             {"rank": 4, "player": null, "quantity": null, "date": null},
@@ -147,7 +147,7 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Leather": [
-            {"rank": 1, "player": "AwoomedudeW10", "quantity": null, "date": "07/02/2025"},
+            {"rank": 1, "player": "AweomedudeW10", "quantity": null, "date": "07/02/2025"},
             {"rank": 2, "player": "sagnikisawesome", "quantity": null, "date": "28/02/2025"},
             {"rank": 3, "player": "Icezane5011", "quantity": null, "date": "28/02/2025"},
             {"rank": 4, "player": null, "quantity": null, "date": null},
