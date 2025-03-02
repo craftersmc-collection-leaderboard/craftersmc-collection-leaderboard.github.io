@@ -76,7 +76,7 @@ const data = {
         ],
         "Beetroot": [
             {"rank": 1, "player": "Creepyshorts", "quantity": "77,000,000", "date": "28/02/2025"},
-            {"rank": 2, "player": "Tonykiller7895", "quantity": 41,000,000, "date": "28/02/2025"},
+            {"rank": 2, "player": "Tonykiller7895", "quantity": "41,000,000", "date": "28/02/2025"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
@@ -452,7 +452,7 @@ const data = {
         "String": [
             {"rank": 1, "player": null, "quantity": null, "date": null},
             {"rank": 2, "player": "M47230", "quantity": "21,000,000", "date": "18/02/2025"},
-            {"rank": 3, "player": "--", "quantity": "18,300,000", "date": "16/11/2024"},
+            {"rank": 3, "player": null, "quantity": "18,300,000", "date": "16/11/2024"},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": null, "quantity": null, "date": null},
