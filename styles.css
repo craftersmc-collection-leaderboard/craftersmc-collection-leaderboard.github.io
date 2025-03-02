@@ -47,7 +47,7 @@ h1 {
 }
 
 h1:hover {
-    color: #2FADF2; 
+    color: #127DD2; 
 }
 
 h1#home-link {
@@ -62,14 +62,14 @@ h1#home-link {
 }
 
 h1#home-link img {
-    width: 50px; 
-    height: 50px; 
+    width: 36px; 
+    height: 36px; 
     margin-right: 10px; 
     vertical-align: middle; 
 }
 
 h1#home-link:hover {
-    color: #2FADF2; 
+    color: #127DD2; 
 }
 
 p {
@@ -95,7 +95,7 @@ nav a {
     align-items: center;
     text-decoration: none;
     color: #ffffff;
-    background-color: #2FADF2; 
+    background-color: #127DD2; 
     padding: 10px 20px;
     border: 2px solid #000000; 
     transition: background-color 0.3s;
@@ -108,7 +108,7 @@ nav a img {
 }
 
 nav a:hover {
-    background-color: #1E87C4; 
+    background-color: #0D5FA5; 
 }
 
 main {
@@ -156,7 +156,7 @@ main {
 
 #category-overview h2.category-header:hover {
     background-color: #666666; 
-    color: #2FADF2; 
+    color: #127DD2; 
 }
 
 #category-overview h2.category-header:after {
@@ -202,7 +202,7 @@ main {
 }
 
 .category-table th, #leaderboard th {
-    background-color: #2FADF2; 
+    background-color: #127DD2; 
 }
 
 .category-table td[data-item]:not(:empty), #leaderboard td[data-item]:not(:empty) {
@@ -211,7 +211,7 @@ main {
 
 .category-table td[data-item]:not(:empty):hover, #leaderboard td[data-item]:not(:empty):hover {
     background-color: #444444; 
-    color: #2FADF2; 
+    color: #127DD2; 
 }
 
 .category-table th, .category-table td:not([data-item]), #leaderboard th, #leaderboard td:not([data-item]) {
@@ -246,7 +246,7 @@ main {
 }
 
 #item-list button:hover, #item-list button.selected {
-    background-color: #2FADF2; 
+    background-color: #127DD2; 
 }
 
 #item-list button img, #category-overview h2 img, #category-overview td img {
@@ -256,7 +256,7 @@ main {
 }
 
 .rank1 {
-    background-color: #ffd700; 
+    background-color: #FFDE21; 
     color: #000000;
 }
 
@@ -295,7 +295,7 @@ footer p {
 footer a {
     color: #ffffff; 
     text-decoration: none; 
-    background-color: #2FADF2; 
+    background-color: #127DD2; 
     padding: 5px 10px; 
     border: 2px solid #000000; 
     transition: background-color 0.3s; 
@@ -303,7 +303,7 @@ footer a {
 }
 
 footer a:hover {
-    background-color: #1E87C4; 
+    background-color: #0D5FA5; 
 }
 
 @media (max-width: 768px) {
