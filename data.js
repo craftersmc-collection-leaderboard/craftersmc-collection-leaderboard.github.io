@@ -511,7 +511,7 @@ const data = {
         ],
         "Magma Cream": [
             {"rank": 1, "player": null, "quantity": null, "date": null},
-            {"rank": 2, "player": null, "quantity": null, "date": null},
+            {"rank": 2, "player": "Fahad3382", "quantity": null, "date": "22/02/2025"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
