@@ -309,7 +309,7 @@ const data = {
         ],
         "Redstone": [
             {"rank": 1, "player": null, "quantity": null, "date": null},
-            {"rank": 2, "player": "Fahad3382", "quantity": null, "date": "29/12/2024"},
+            {"rank": 2, "player": null, "quantity": null, "date": null},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
@@ -365,7 +365,7 @@ const data = {
             {"rank": 2, "player": "Darkshadow52195", "quantity": "11,000,000", "date": "28/02/2025"},
             {"rank": 3, "player": "BoneJ5945", "quantity": "9,500,000", "date": "14/11/2024"},
             {"rank": 4, "player": "GPK4", "quantity": null, "date": "28/02/2025"},
-            {"rank": 5, "player": "Darkshadow52195", "quantity": null, "date": "04/02/2025"},
+            {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": null, "quantity": null, "date": null},
             {"rank": 7, "player": null, "quantity": null, "date": null},
             {"rank": 8, "player": null, "quantity": null, "date": null},
@@ -409,7 +409,7 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Jungle Log": [
-            {"rank": 1, "player": "IRONMAN1237721", "quantity": null, "date": "08/11/2024"},
+            {"rank": 1, "player": "IRONMAN1237721", "quantity": "55,000,000", "date": "03/03/2025"},
             {"rank": 2, "player": "Slayer1219978", "quantity": null, "date": "31/12/2024"},
             {"rank": 3, "player": "NumberOne230564", "quantity": "13,000,000", "date": "31/12/2024"},
             {"rank": 4, "player": "TRIGUN2212", "quantity": null, "date": "08/11/2024"},
