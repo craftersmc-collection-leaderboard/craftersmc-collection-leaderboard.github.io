@@ -382,7 +382,7 @@ const data = {
             {"rank": 7, "player": null, "quantity": null, "date": null},
             {"rank": 8, "player": "Ramesh40512", "quantity": null, "date": "03/03/2025"},
             {"rank": 9, "player": "PhantomQu", "quantity": "3,700,000", "date": "03/03/2025"},
-            {"rank": 10, "player": null, "quantity": null, "date": null}
+            {"rank": 10, "player": "sagnikisawesome", "quantity": "3,100,000", "date": "03/03/2025"}
         ],
         "Dark Oak Log": [
             {"rank": 1, "player": "Gameryash322", "quantity": "60,000,000", "date": "08/11/2024"},
@@ -519,7 +519,7 @@ const data = {
             {"rank": 7, "player": null, "quantity": null, "date": null},
             {"rank": 8, "player": null, "quantity": null, "date": null},
             {"rank": 9, "player": null, "quantity": null, "date": null},
-            {"rank": 10, "player": null, "quantity": null, "date": null}
+            {"rank": 10, "player": "Ghosthunter4233", "quantity": null, "date": "04/03/2025"}
         ]
     }
 },
