@@ -299,7 +299,7 @@ const data = {
             {"rank": 1, "player": "Senpaiyusuf", "quantity": null, "date": "09/11/2024"},
             {"rank": 2, "player": null, "quantity": null, "date": null},
             {"rank": 3, "player": null, "quantity": null, "date": null},
-            {"rank": 4, "player": null, "quantity": null, "date": null},
+            {"rank": 4, "player": "LORDXGASTER1508", "quantity": "9,200,000", "date": "07/03/2025"},
             {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": null, "quantity": null, "date": null},
             {"rank": 7, "player": "Fearstruck8500", "quantity": null, "date": null},
