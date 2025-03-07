@@ -196,7 +196,7 @@ const data = {
         ],
         "Mutton": [
             {"rank": 1, "player": null, "quantity": null, "date": null},
-            {"rank": 2, "player": null, "quantity": null, "date": null},
+            {"rank": 2, "player": "Meetgamer76", "quantity": null, "date": "07/03/2025"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
