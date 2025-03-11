@@ -546,7 +546,7 @@ const data = {
                 {"rank": 5, "player": "Shakilbaby", "quantity": "2,500,000", "date": "09/03/2025"},
                 {"rank": 6, "player": "SoundClover8088", "quantity": null, "date": "09/03/2025"},
                 {"rank": 7, "player": "Duebacon2007102", "quantity": null, "date": "03/03/2025"},
-                {"rank": 8, "player": "op_moraya5598", "quantity": null, "date": "08/03/2025"},
+                {"rank": 8, "player": "op_moraya5598", "quantity": "1,900,000", "date": "11/03/2025"},
                 {"rank": 9, "player": "uatitan580", "quantity": null, "date": "08/03/2025"},
                 {"rank": 10, "player": null, "quantity": null, "date": null}
             ]
