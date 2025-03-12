@@ -400,8 +400,8 @@ const data = {
             {"rank": 1, "player": "KaosTheChaos", "quantity": null, "date": "01/01/2025"},
             {"rank": 2, "player": "TRIGUN2212", "quantity": null, "date": "09/11/2024"},
             {"rank": 3, "player": "ImNdricim", "quantity": null, "date": "11/12/2024"},
-            {"rank": 4, "player": "IRONMAN1237721", "quantity": null, "date": "18/11/2024"},
-            {"rank": 5, "player": null, "quantity": null, "date": null},
+            {"rank": 4, "player": null, "quantity": null, "date": null},
+            {"rank": 5, "player": "IRONMAN1237721", "quantity": "10,100,000", "date": "12/03/2025"},
             {"rank": 6, "player": null, "quantity": null, "date": null},
             {"rank": 7, "player": null, "quantity": null, "date": null},
             {"rank": 8, "player": "Moerderfisch", "quantity": "10,000,000", "date": "02/03/2025"},
@@ -409,7 +409,7 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Jungle Log": [
-            {"rank": 1, "player": "IRONMAN1237721", "quantity": "55,000,000", "date": "03/03/2025"},
+            {"rank": 1, "player": "IRONMAN1237721", "quantity": "57,300,000", "date": "12/03/2025"},
             {"rank": 2, "player": "Slayer1219978", "quantity": null, "date": "31/12/2024"},
             {"rank": 3, "player": "NumberOne230564", "quantity": "13,000,000", "date": "31/12/2024"},
             {"rank": 4, "player": "TRIGUN2212", "quantity": null, "date": "08/11/2024"},
