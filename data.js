@@ -529,7 +529,7 @@ const data = {
             "Zombie Slayer": [
                 {"rank": 1, "player": "SphinxWraith", "quantity": "40,000,000", "date": "29/01/2025"},
                 {"rank": 2, "player": "DueBacon2007102", "quantity": "20,000,000", "date": "04/02/2025"},
-                {"rank": 3, "player": "HeGzoStRqFe", "quantity": null, "date": "08/11/2024"},
+                {"rank": 3, "player": "HeGzoStRqFe", "quantity": null, "date": "04/02/2025"},
                 {"rank": 4, "player": "Itzomkar1232891", "quantity": "17,000,000", "date": "28/02/2025"},
                 {"rank": 5, "player": "SoundClover8088", "quantity": null, "date": "28/02/2025"},
                 {"rank": 6, "player": "uatitan580", "quantity": null, "date": "28/02/2025"},
