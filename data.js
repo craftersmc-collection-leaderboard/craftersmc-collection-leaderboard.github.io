@@ -361,7 +361,7 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Spruce Log": [
-            {"rank": 1, "player": "Darkshadow52195", "quantity": "15,800,000", "date": "24/03/2025"}
+            {"rank": 1, "player": "Darkshadow52195", "quantity": "15,800,000", "date": "24/03/2025"},
             {"rank": 2, "player": "Darkshadow52195", "quantity": "11,000,000", "date": "28/02/2025"},
             {"rank": 3, "player": "BoneJ5945", "quantity": "9,500,000", "date": "14/11/2024"},
             {"rank": 4, "player": "GPK4", "quantity": null, "date": "28/02/2025"},
