@@ -361,12 +361,12 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Spruce Log": [
-            {"rank": 1, "player": "TRIGUN2212", "quantity": null, "date": "09/11/2024"},
+            {"rank": 1, "player": "Darkshadow52195", "quantity": "15,800,000", "date": "24/03/2025"}
             {"rank": 2, "player": "Darkshadow52195", "quantity": "11,000,000", "date": "28/02/2025"},
             {"rank": 3, "player": "BoneJ5945", "quantity": "9,500,000", "date": "14/11/2024"},
             {"rank": 4, "player": "GPK4", "quantity": null, "date": "28/02/2025"},
             {"rank": 5, "player": null, "quantity": null, "date": null},
-            {"rank": 6, "player": null, "quantity": null, "date": null},
+            {"rank": 6, "player": "NumberOne230564", "quantity": null, "date": "26/03/2025"},
             {"rank": 7, "player": null, "quantity": null, "date": null},
             {"rank": 8, "player": "NumberOne230564 ", "quantity": null, "date": "22/03/2025"},
             {"rank": 9, "player": null, "quantity": null, "date": null},
@@ -391,8 +391,8 @@ const data = {
             {"rank": 4, "player": "Hefty6428", "quantity": null, "date": "08/11/2024"},
             {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": "GRAVITY8303", "quantity": "24,000,000", "date": "24/03/2025"},
-            {"rank": 7, "player": "Moerderfisch", "quantity": "20,000,000", "date": "02/03/2025"},
-            {"rank": 8, "player": null, "quantity": null, "date": null},
+            {"rank": 7, "player": null, "quantity": null, "date": null},
+            {"rank": 8, "player": "Moerderfisch", "quantity": null, "date": "24/03/2025"},
             {"rank": 9, "player": "Itzomkar1232891", "quantity": null, "date": "20/11/2024"},
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
@@ -488,7 +488,7 @@ const data = {
         "Slime Ball": [
             {"rank": 1, "player": "AhmedTheGuy6100", "quantity": "118,000,000", "date": "09/02/2024"},
             {"rank": 2, "player": null, "quantity": "<95,000,000", "date": "02/12/2024"},
-            {"rank": 3, "player": "SYTHERJOD", "quantity": "39,000,000", "date": "19/12/2024"},
+            {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": "UCHIHASHERA1", "quantity": null, "date": "23/02/2024"},
             {"rank": 5, "player": "Savage_Shrey781", "quantity": "42,400,000", "date": "10/03/2025"},
             {"rank": 6, "player": "SeaborneClamp18", "quantity": "42,000,000", "date": "10/03/2025"},
@@ -498,7 +498,7 @@ const data = {
             {"rank": 10, "player": "KrazyZippy69", "quantity": null, "date": "22/03/2025"}
         ],
         "Blaze Rod": [
-            {"rank": 1, "player": null, "quantity": null, "date": null},
+            {"rank": 1, "player": "Herejefferson", "quantity": null, "date": "27/03/2025"},
             {"rank": 2, "player": null, "quantity": null, "date": null},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": "NoviceBook91", "quantity": null, "date": "03/03/2025"},
@@ -537,7 +537,7 @@ const data = {
                 {"rank": 7, "player": null, "quantity": null, "date": null},
                 {"rank": 8, "player": "Arslaan9477", "quantity": "12,500,000", "date": "03/03/2025"},
                 {"rank": 9, "player": "Shubh_gamer9497", "quantity": "10,600,000", "date": "31/12/2024"},
-                {"rank": 10, "player": "Herejefferson", "quantity": "11,250,000", "date": "22/02/2025"}
+                {"rank": 10, "player": "Kg_lcky_01", "quantity": null, "date": "26/03/2025"}
             ],
             "Wolf Slayer": [
                 {"rank": 1, "player": "SphinxWraith", "quantity": "6,000,000+", "date": "28/02/2025"},
