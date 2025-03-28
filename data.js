@@ -4,7 +4,7 @@ const data = {
     "leaderboards": {
         "Wheat": [
             {"rank": 1, "player": "PriestlyPath870", "quantity": null, "date": "21/11/2024"},
-            {"rank": 2, "player": "Hefty6428", "quantity": null, "date": "08/11/2024"},
+            {"rank": 2, "player": "Hefty6248", "quantity": null, "date": "08/11/2024"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
@@ -112,7 +112,7 @@ const data = {
         ],
         "Cactus": [
             {"rank": 1, "player": "KaosTheChaos", "quantity": null, "date": "08/11/2024"},
-            {"rank": 2, "player": "Hefty6428", "quantity": null, "date": "08/11/2024"},
+            {"rank": 2, "player": "Hefty6248", "quantity": null, "date": "08/11/2024"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": "TRIGUN2212", "quantity": null, "date": "09/11/2024"},
@@ -161,7 +161,7 @@ const data = {
         "Raw Porkchop": [
             {"rank": 1, "player": "BabiestOlive47", "quantity": null, "date": "08/11/2024"},
             {"rank": 2, "player": null, "quantity": null, "date": null},
-            {"rank": 3, "player": "sboi146433", "quantity": "17,000,000", "date": "20/12/2024"},
+            {"rank": 3, "player": "sboi146433", "quantity": null, "date": "20/12/2024"},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": "lunarglow4820", "quantity": null, "date": "29/12/2024"},
             {"rank": 6, "player": "NINTIN7238", "quantity": null, "date": "17/12/2024"},
@@ -172,7 +172,7 @@ const data = {
         ],
         "Raw Chicken": [
             {"rank": 1, "player": null, "quantity": null, "date": null},
-            {"rank": 2, "player": "Hefty6428", "quantity": null, "date": "08/11/2024"},
+            {"rank": 2, "player": "Hefty6248", "quantity": null, "date": "08/11/2024"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
@@ -362,13 +362,13 @@ const data = {
         ],
         "Spruce Log": [
             {"rank": 1, "player": "Darkshadow52195", "quantity": "15,800,000", "date": "24/03/2025"},
-            {"rank": 2, "player": "Darkshadow52195", "quantity": "11,000,000", "date": "28/02/2025"},
+            {"rank": 2, "player": null, "quantity": null, "date": null},
             {"rank": 3, "player": "BoneJ5945", "quantity": "9,500,000", "date": "14/11/2024"},
             {"rank": 4, "player": "GPK4", "quantity": null, "date": "28/02/2025"},
             {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": "NumberOne230564", "quantity": null, "date": "26/03/2025"},
             {"rank": 7, "player": null, "quantity": null, "date": null},
-            {"rank": 8, "player": "NumberOne230564 ", "quantity": null, "date": "22/03/2025"},
+            {"rank": 8, "player": null, "quantity": null, "date": null},
             {"rank": 9, "player": null, "quantity": null, "date": null},
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
