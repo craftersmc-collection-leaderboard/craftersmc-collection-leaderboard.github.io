@@ -332,8 +332,8 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Ice": [
-            {"rank": 1, "player": "Copingo", "quantity": "125,000,000", "date": "09/11/2024"},
-            {"rank": 2, "player": null, "quantity": null, "date": null},
+            {"rank": 1, "player": "KaosTheChaos", "quantity": null, "date": "29/03/2024"},
+            {"rank": 2, "player": "Copingo", "quantity": null, "date": "29/03/2025"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
