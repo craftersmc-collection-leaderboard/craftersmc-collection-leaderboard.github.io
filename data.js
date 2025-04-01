@@ -107,7 +107,7 @@ const data = {
             {"rank": 6, "player": null, "quantity": null, "date": null},
             {"rank": 7, "player": "John9678", "quantity": null, "date": "24/03/2025"},
             {"rank": 8, "player": null, "quantity": null, "date": null},
-            {"rank": 9, "player": null, "quantity": null, "date": null},
+            {"rank": 9, "player": "Moerderfisch", "quantity": "39,400,000", "date": "31/03/2025"},
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Cactus": [
@@ -310,7 +310,7 @@ const data = {
         "Redstone": [
             {"rank": 1, "player": null, "quantity": null, "date": null},
             {"rank": 2, "player": null, "quantity": null, "date": null},
-            {"rank": 3, "player": null, "quantity": null, "date": null},
+            {"rank": 3, "player": "Firegod174", "quantity": "88,000,000", "date": "01/04/2025"},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": null, "quantity": null, "date": null},
@@ -536,8 +536,8 @@ const data = {
                 {"rank": 6, "player": "uatitan580", "quantity": null, "date": "28/02/2025"},
                 {"rank": 7, "player": null, "quantity": null, "date": null},
                 {"rank": 8, "player": "Kg_lcky_01", "quantity": null, "date": "30/03/2025"},
-                {"rank": 9, "player": "Shubh_gamer9497", "quantity": "10,600,000", "date": "31/12/2024"},
-                {"rank": 10, "player": "Kg_lcky_01", "quantity": null, "date": "26/03/2025"}
+                {"rank": 9, "player": "Shubh_gamer9497", "quantity": "12,400,000", "date": "31/03/2025"},
+                {"rank": 10, "player": null, "quantity": null, "date": null}
             ],
             "Wolf Slayer": [
                 {"rank": 1, "player": "SphinxWraith", "quantity": "6,000,000+", "date": "28/02/2025"},
