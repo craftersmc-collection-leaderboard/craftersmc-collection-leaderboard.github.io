@@ -534,7 +534,7 @@ const data = {
                 {"rank": 4, "player": "Itzomkar1232891", "quantity": "17,000,000", "date": "28/02/2025"},
                 {"rank": 5, "player": "StragglyBoat23", "quantity": "15,000,000+", "date": "01/04/2025"},
                 {"rank": 6, "player": "SoundClover8088", "quantity": null, "date": "01/04/2025"},
-                {"rank": 7, "player": "Kg_lcky_01, "quantity": null, "date": "01/04/2025"},
+                {"rank": 7, "player": "Kg_lcky_01", "quantity": null, "date": "01/04/2025"},
                 {"rank": 8, "player": "uatitan580", "quantity": null, "date": "01/04/2025"},
                 {"rank": 9, "player": "Shubh_gamer9497", "quantity": "12,400,000", "date": "01/04/2025"},
                 {"rank": 10, "player": "Arslaan9477", "quantity": null, "date": "01/04/2025"}
