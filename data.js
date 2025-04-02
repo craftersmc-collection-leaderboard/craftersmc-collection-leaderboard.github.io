@@ -53,8 +53,8 @@ const data = {
         "Melon": [
             {"rank": 1, "player": "Lenny1sCo0l", "quantity": null, "date": "09/11/2024"},
             {"rank": 2, "player": null, "quantity": null, "date": null},
-            {"rank": 3, "player": "Mrbase101", "quantity": "90,000,000", "date": "29/12/2024"},
-            {"rank": 4, "player": null, "quantity": null, "date": null},
+            {"rank": 3, "player": "Mrbase101", "quantity": null, "date": "29/12/2024"},
+            {"rank": 4, "player": "RanuTheAxo", "quantity": "100,000,000", "date": "02/04/2025"},
             {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": null, "quantity": null, "date": null},
             {"rank": 7, "player": null, "quantity": null, "date": null},
