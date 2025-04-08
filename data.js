@@ -135,7 +135,7 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Feather": [
-            {"rank": 1, "player": "SammyMishu", "quantity": "29,600,000, "date": "08/04/2025"},
+            {"rank": 1, "player": "SammyMishu", "quantity": "29,600,000", "date": "08/04/2025"},
             {"rank": 2, "player": "The_Winchi", "quantity": null, "date": "08/11/2024"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
