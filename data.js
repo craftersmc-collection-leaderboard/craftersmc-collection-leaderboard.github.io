@@ -105,9 +105,9 @@ const data = {
             {"rank": 4, "player": "SphinxWraith", "quantity": null, "date": "03/03/2025"},
             {"rank": 5, "player": "AndyGamer024", "quantity": "50,000,000", "date": "20/11/2024"},
             {"rank": 6, "player": null, "quantity": null, "date": null},
-            {"rank": 7, "player": "John9678", "quantity": null, "date": "24/03/2025"},
+            {"rank": 7, "player": "Moerderfisch", "quantity": "49,500,000", "date": "08/04/2025"},
             {"rank": 8, "player": null, "quantity": null, "date": null},
-            {"rank": 9, "player": "Moerderfisch", "quantity": "39,400,000", "date": "31/03/2025"},
+            {"rank": 9, "player": null, "quantity": null, "date": null},
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Cactus": [
@@ -135,7 +135,7 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Feather": [
-            {"rank": 1, "player": "SammyMishu", "quantity": null, "date": "08/11/2024"},
+            {"rank": 1, "player": "SammyMishu", "quantity": "29,600,000, "date": "08/04/2025"},
             {"rank": 2, "player": "The_Winchi", "quantity": null, "date": "08/11/2024"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
@@ -183,8 +183,8 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Raw Duck": [
-            {"rank": 1, "player": "The_Winchi", "quantity": "26,500,000", "date": "16/03/2025"},
-            {"rank": 2, "player": null, "quantity": null, "date": null},
+            {"rank": 1, "player": "SammyMishu", "quantity": "29,400,000", "date": "08/04/2025"},
+            {"rank": 2, "player": "The_Winchi", "quantity": "26,500,000", "date": "16/03/2025"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
@@ -197,7 +197,7 @@ const data = {
         "Mutton": [
             {"rank": 1, "player": null, "quantity": null, "date": null},
             {"rank": 2, "player": "Meetgamer76", "quantity": null, "date": "07/03/2025"},
-            {"rank": 3, "player": null, "quantity": null, "date": null},
+            {"rank": 3, "player": null, "quantipty": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": null, "quantity": null, "date": null},
@@ -211,8 +211,8 @@ const data = {
             {"rank": 2, "player": null, "quantity": null, "date": null},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
-            {"rank": 5, "player": "Moerderfisch", "quantity": "6,300,000", "date": "02/03/2025"},
-            {"rank": 6, "player": null, "quantity": null, "date": null},
+            {"rank": 5, "player": null, "quantity": null, "date": null},
+            {"rank": 6, "player": "Moerderfisch", "quantity": "6,300,000", "date": "08/04/2025"},
             {"rank": 7, "player": null, "quantity": null, "date": null},
             {"rank": 8, "player": null, "quantity": null, "date": null},
             {"rank": 9, "player": "Fatbelly1802", "quantity": null, "date": "10/02/2025"},
@@ -237,7 +237,7 @@ const data = {
         ],
         "Coal": [
             {"rank": 1, "player": "Exnned", "quantity": "100,000,000", "date": "09/11/2024"},
-            {"rank": 2, "player": null, "quantity": null, "date": null},
+            {"rank": 2, "player": "HeGzoStRqFe", "quantity": null, "date": "06/04/2025"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": "Burakbu001", "quantity": null, "date": "14/11/2024"},
