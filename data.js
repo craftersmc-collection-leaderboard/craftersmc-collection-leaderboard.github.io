@@ -239,11 +239,11 @@ const data = {
             {"rank": 1, "player": "Exnned", "quantity": "100,000,000", "date": "09/11/2024"},
             {"rank": 2, "player": "HeGzoStRqFe", "quantity": null, "date": "06/04/2025"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
-            {"rank": 4, "player": null, "quantity": null, "date": null},
+            {"rank": 4, "player": "HeGzoStRqFe", "quantity": null, "date": "06/04/2025"},
             {"rank": 5, "player": "Burakbu001", "quantity": null, "date": "14/11/2024"},
             {"rank": 6, "player": "C4P2L", "quantity": "61,000,000", "date": "17/03/2025"},
             {"rank": 7, "player": null, "quantity": null, "date": null},
-            {"rank": 8, "player": "KaosTheChaos", "quantity": "43,400,000", "date": "09/11/2024"},
+            {"rank": 8, "player": "HeGzoStRqFe", "quantity": null, "date": "08/04/2025"},
             {"rank": 9, "player": null, "quantity": null, "date": null},
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
@@ -260,9 +260,9 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Gold Ingot": [
-            {"rank": 1, "player": "Jrian8733", "quantity": "50,000,000", "date": "09/11/2024"},
+            {"rank": 1, "player": "Meetgamer76", "quantity": "50,000,000", "date": "08/04/2025"},
             {"rank": 2, "player": "Exnned", "quantity": "28,200,000", "date": "09/11/2024"},
-            {"rank": 3, "player": "Meetgamer76", "quantity": null, "date": "11/11/2024"},
+            {"rank": 3, "player": "Jrian8733", "quantity": null, "date": "08/04/2025"},
             {"rank": 4, "player": "SphinxWraith", "quantity": null, "date": "03/03/2025"},
             {"rank": 5, "player": "Himmu9186", "quantity": null, "date": "20/11/2024"},
             {"rank": 6, "player": "uatitan580", "quantity": null, "date": "31/12/2024"},
