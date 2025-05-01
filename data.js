@@ -350,7 +350,7 @@ const data = {
     "leaderboards": {
         "Oak Log": [
             {"rank": 1, "player": "Oak_Optic", "quantity": "60,000,000", "date": "28/11/2024"},
-            {"rank": 2, "player": ,null, "quantity": null, "date": null},
+            {"rank": 2, "player": null, "quantity": null, "date": null},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": "KaosTheChaos", "quantity": "13,600,000", "date": "22/04/2025"},
             {"rank": 5, "player": null, "quantity": null, "date": null},
