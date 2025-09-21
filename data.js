@@ -3,7 +3,7 @@ const data = {
     "items": ["Wheat", "Carrot", "Potato", "Pumpkin", "Melon", "Seed", "Beetroot", "Mushroom", "Cocoa Beans", "Cactus", "Sugar Cane", "Feather", "Leather", "Raw Porkchop", "Raw Chicken", "Raw Duck", "Mutton", "Raw Rabbit"],
     "leaderboards": {
         "Wheat": [
-            {"rank": 1, "player": "PriestlyPath870", "quantity": null, "date": "21/11/2024"},
+            {"rank": 1, "player": "Troubles2Go", "quantity": "57,000,000", "date": "12/09/2025"},
             {"rank": 2, "player": "Hefty6248", "quantity": null, "date": "08/11/2024"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
@@ -27,8 +27,8 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Potato": [
-            {"rank": 1, "player": "Ashish0809", "quantity": "305,000,000", "date": "08/11/2024"},
-            {"rank": 2, "player": "TXLEGEND111", "quantity": "210,000,000", "date": "08/11/2024"},
+            {"rank": 1, "player": "Ashish0809", "quantity": "413,200,000", "date": "03/08/2025"},
+            {"rank": 2, "player": "Swagmire2329", "quantity": "255,000,000", "date": "04/08/2025"},
             {"rank": 3, "player": "Gamer_legend746", "quantity": "169,000,000", "date": "31/12/2024"},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
@@ -39,14 +39,14 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Pumpkin": [
-            {"rank": 1, "player": "Madstar0401YT", "quantity": "62,000,000", "date": "02/03/2025"},
+            {"rank": 1, "player": "Madstar0401YT", "quantity": "70,000,000", "date": "06/08/2025"},
             {"rank": 2, "player": "HeGzoStRqFe", "quantity": "30,000,000", "date": "08/12/2024"},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": "GMG_games", "quantity": "~25,000,000", "date": "08/11/2024"},
             {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": "Notenderman9677", "quantity": null, "date": "07/12/2024"},
             {"rank": 7, "player": "Parmeseanpud", "quantity": "15,000,000", "date": "11/01/2025"},
-            {"rank": 8, "player": null, "quantity": null, "date": null},
+            {"rank": 8, "player": "Iceberg899", "quantity": null, "date": "10/09/2025"},
             {"rank": 9, "player": null, "quantity": null, "date": null},
             {"rank": 10, "player": "IRONMAN1237721", "quantity": null, "date": "18/11/2024"}
         ],
@@ -63,7 +63,7 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Seed": [
-            {"rank": 1, "player": "PriestlyPath870", "quantity": null, "date": "21/11/2024"},
+            {"rank": 1, "player": "Troubles2Go", "quantity": null, "date": "12/09/2025"},
             {"rank": 2, "player": null, "quantity": null, "date": null},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
@@ -75,14 +75,14 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Beetroot": [
-            {"rank": 1, "player": "Tonykiller7895", "quantity": null, "date": "17/03/2025"},
-            {"rank": 2, "player": "Creepyshorts", "quantity": "<60,000,000", "date": "17/03/2025"},
+            {"rank": 1, "player": "Creepyshorts", "quantity": "100,000,000", "date": "04/08/2025"},
+            {"rank": 2, "player": null, "quantity": null, "date": null},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": null, "quantity": null, "date": null},
             {"rank": 7, "player": "Perry3338", "quantity": "32,000,000", "date": "09/11/2024"},
-            {"rank": 8, "player": null, "quantity": null, "date": null},
+            {"rank": 8, "player": "club32", "quantity": null, "date": "21/07/2025"},
             {"rank": 9, "player": null, "quantity": null, "date": null},
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
@@ -103,7 +103,7 @@ const data = {
             {"rank": 2, "player": "GlumnorbG", "quantity": "155,000,000", "date": "07/02/2025"},
             {"rank": 3, "player": "GPK4", "quantity": null, "date": "07/02/2025"},
             {"rank": 4, "player": "SphinxWraith", "quantity": null, "date": "03/03/2025"},
-            {"rank": 5, "player": "AndyGamer024", "quantity": "50,000,000", "date": "20/11/2024"},
+            {"rank": 5, "player": "GRAVITY8303", "quantity": "100,000,000", "date": "10/09/2025"},
             {"rank": 6, "player": null, "quantity": null, "date": null},
             {"rank": 7, "player": "Moerderfisch", "quantity": "49,500,000", "date": "08/04/2025"},
             {"rank": 8, "player": null, "quantity": null, "date": null},
@@ -112,8 +112,8 @@ const data = {
         ],
         "Cactus": [
             {"rank": 1, "player": "KaosTheChaos", "quantity": null, "date": "08/11/2024"},
-            {"rank": 2, "player": "Hefty6248", "quantity": null, "date": "08/11/2024"},
-            {"rank": 3, "player": null, "quantity": null, "date": null},
+            {"rank": 2, "player": "Moerderfisch", "quantity": "51,000,000", "date": "15/09/2025"},
+            {"rank": 3, "player": "Hefty6248", "quantity": null, "date": null},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": "TRIGUN2212", "quantity": null, "date": "09/11/2024"},
             {"rank": 6, "player": null, "quantity": null, "date": null},
@@ -125,8 +125,8 @@ const data = {
         "Sugar Cane": [
             {"rank": 1, "player": "ThENoOb1737", "quantity": "200,000,000", "date": "08/11/2024"},
             {"rank": 2, "player": null, "quantity": null, "date": null},
-            {"rank": 3, "player": null, "quantity": "~95,000,000", "date": "29/12/2024"},
-            {"rank": 4, "player": "TopsideMender34", "quantity": "82,000,000", "date": "09/01/2025"},
+            {"rank": 3, "player": "TopsideMember34", "quantity": "101,000,000+", "date": "03/08/2025"},
+            {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": "Perry3338", "quantity": null, "date": "15/06/2025"},
             {"rank": 6, "player": null, "quantity": null, "date": null},
             {"rank": 7, "player": null, "quantity": null, "date": null},
@@ -168,7 +168,7 @@ const data = {
             {"rank": 7, "player": "ItlsYeElk69", "quantity": null, "date": "12/12/2024"},
             {"rank": 8, "player": null, "quantity": null, "date": null},
             {"rank": 9, "player": "NumberOne230564", "quantity": null, "date": "15/11/2024"},
-            {"rank": 10, "player": null, "quantity": null, "date": null}
+            {"rank": 10, "player": "Sky691485", "quantity": "15,800,000", "date": "17/07/2025"}
         ],
         "Raw Chicken": [
             {"rank": 1, "player": null, "quantity": null, "date": null},
@@ -210,11 +210,11 @@ const data = {
             {"rank": 1, "player": "RadThunder21", "quantity": null, "date": "08/11/2024"},
             {"rank": 2, "player": null, "quantity": null, "date": null},
             {"rank": 3, "player": null, "quantity": null, "date": null},
-            {"rank": 4, "player": null, "quantity": null, "date": null},
+            {"rank": 4, "player": "AK_GAMERR5398", "quantity": "13,700,000", "date": "22/07/2025"},
             {"rank": 5, "player": "Moerderfisch", "quantity": "6,400,000", "date": "20/04/2025"},
             {"rank": 6, "player": "Fatbelly1802", "quantity": "6,300,000", "date": "01/05/2025"},
             {"rank": 7, "player": null, "quantity": null, "date": null},
-            {"rank": 8, "player": "AK_GAMERR5398", "quantity": "7,000,000", "date": "11/05/2025"},
+            {"rank": 8, "player": null, "quantity": null, "date": null},
             {"rank": 9, "player": "Fatbelly1802", "quantity": null, "date": "10/02/2025"},
             {"rank": 10, "player": null, "quantity": null, "date": null}
          ]
@@ -233,14 +233,14 @@ const data = {
             {"rank": 7, "player": null, "quantity": null, "date": null},
             {"rank": 8, "player": null, "quantity": null, "date": null},
             {"rank": 9, "player": null, "quantity": null, "date": null},
-            {"rank": 10, "player": null, "quantity": null, "date": null}
+            {"rank": 10, "player": "Moerderfisch", "quantity": "59,500,000", "date": "05/08/2025"}
         ],
         "Coal": [
             {"rank": 1, "player": "KaosTheChaos", "quantity": null, "date": "11/04/2025"},
             {"rank": 2, "player": "HeGzoStRqFe", "quantity": null, "date": "06/04/2025"},
-            {"rank": 3, "player": "Exnned", "quantity": null, "date": "11/04/2025"},
-            {"rank": 4, "player": "HeGzoStRqFe", "quantity": null, "date": "06/04/2025"},
-            {"rank": 5, "player": "C4P2L", "quantity": "70,600,000", "date": "30/04/2025"},
+            {"rank": 3, "player": "C4P2L", "quantity": "97,000,000", "date": "31/08/2025"},
+            {"rank": 4, "player": null, "quantity": null, "date": null},
+            {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": null, "quantity": null, "date": null},
             {"rank": 7, "player": null, "quantity": null, "date": null},
             {"rank": 8, "player": "HeGzoStRqFe", "quantity": null, "date": "08/04/2025"},
@@ -298,8 +298,8 @@ const data = {
         "Emerald": [
             {"rank": 1, "player": "Senpaiyusuf", "quantity": null, "date": "09/11/2024"},
             {"rank": 2, "player": null, "quantity": null, "date": null},
-            {"rank": 3, "player": null, "quantity": null, "date": null},
-            {"rank": 4, "player": "LORDXGASTER1508", "quantity": "9,200,000", "date": "07/03/2025"},
+            {"rank": 3, "player": "LORDXGANGSTER1508", "quantity": "15,200,000", "date": "15/09/2025"},
+            {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": null, "quantity": null, "date": null},
             {"rank": 7, "player": "Fearstruck8500", "quantity": null, "date": null},
@@ -349,7 +349,7 @@ const data = {
     "items": ["Oak Log", "Spruce Log", "Birch Log", "Dark Oak Log", "Acacia Log", "Jungle Log"],
     "leaderboards": {
         "Oak Log": [
-            {"rank": 1, "player": "Oak_Optic", "quantity": "60,000,000", "date": "28/11/2024"},
+            {"rank": 1, "player": "Oak_Optic", "quantity": "100,000,000", "date": "05/08/2025"},
             {"rank": 2, "player": null, "quantity": null, "date": null},
             {"rank": 3, "player": null, "quantity": null, "date": null},
             {"rank": 4, "player": "KaosTheChaos", "quantity": "13,600,000", "date": "22/04/2025"},
@@ -361,9 +361,9 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Spruce Log": [
-            {"rank": 1, "player": "Darkshadow52195", "quantity": "19,000,000", "date": "13/04/2025"},
-            {"rank": 2, "player": "NumberOne230564", "quantity": null, "date": "20/05/2025"},
-            {"rank": 3, "player": "BoneJ5945", "quantity": "9,500,000", "date": "14/11/2024"},
+            {"rank": 1, "player": "ST4ANG3", "quantity": "38,000,000+", "date": "01/09/2025"},
+            {"rank": 2, "player": "Darkshadow52193", "quantity": "32,000,000", "date": "01/09/2025"},
+            {"rank": 3, "player": "NumberOne230564", "quantity": "30,000,000", "date": "01/09/2025"},
             {"rank": 4, "player": "GPK4", "quantity": null, "date": "28/02/2025"},
             {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": null, "quantity": null, "date": null},
@@ -388,7 +388,7 @@ const data = {
             {"rank": 1, "player": "Gameryash322", "quantity": "60,000,000", "date": "08/11/2024"},
             {"rank": 2, "player": "SphinxWraith", "quantity": null, "date": "08/11/2024"},
             {"rank": 3, "player": "GRAVITY8303", "quantity": "34,200,000", "date": "15/04/2025"},
-            {"rank": 4, "player": "Hefty6428", "quantity": null, "date": "08/11/2024"},
+            {"rank": 4, "player": "Iceberg899", "quantity": null, "date": "10/09/2025"},
             {"rank": 5, "player": null, "quantity": null, "date": null},
             {"rank": 6, "player": null, "quantity": null, "date": null},
             {"rank": 7, "player": null, "quantity": null, "date": null},
@@ -400,8 +400,8 @@ const data = {
             {"rank": 1, "player": "KaosTheChaos", "quantity": null, "date": "01/01/2025"},
             {"rank": 2, "player": "TRIGUN2212", "quantity": null, "date": "09/11/2024"},
             {"rank": 3, "player": "ImNdricim", "quantity": null, "date": "11/12/2024"},
-            {"rank": 4, "player": null, "quantity": null, "date": null},
-            {"rank": 5, "player": "IRONMAN1237721", "quantity": "10,100,000", "date": "12/03/2025"},
+            {"rank": 4, "player": "SammyMishu", "quantity": "19,000,000", "date": "22/07/2025"},
+            {"rank": 5, "player": "Redneck_Lineman", "quantity": null, "date": "10/08/2025"},
             {"rank": 6, "player": null, "quantity": null, "date": null},
             {"rank": 7, "player": null, "quantity": null, "date": null},
             {"rank": 8, "player": "Moerderfisch", "quantity": "10,000,000", "date": "02/03/2025"},
@@ -510,16 +510,16 @@ const data = {
             {"rank": 10, "player": null, "quantity": null, "date": null}
         ],
         "Magma Cream": [
-            {"rank": 1, "player": null, "quantity": null, "date": null},
+            {"rank": 1, "player": "TGJASSIYT", "quantity": "81,000,000", "date": "02/08/2025"},
             {"rank": 2, "player": "Fahad3382", "quantity": null, "date": "22/02/2025"},
-            {"rank": 3, "player": null, "quantity": null, "date": null},
+            {"rank": 3, "player": "TGJASSIYT", "quantity": "67,000,000", "date": "04/08/2025"},
             {"rank": 4, "player": null, "quantity": null, "date": null},
             {"rank": 5, "player": "Ghosthunter4233", "quantity": null, "date": "24/06/2025"},
             {"rank": 6, "player": null, "quantity": null, "date": null},
             {"rank": 7, "player": null, "quantity": null, "date": null},
             {"rank": 8, "player": null, "quantity": null, "date": null},
             {"rank": 9, "player": null, "quantity": null, "date": null},
-            {"rank": 10, "player": null, "quantity": null, "date": null}
+            {"rank": 10, "player": "BlackKeyur", "quantity": null, "date": "28/07/2025"}
             
         ]
     }
@@ -530,8 +530,8 @@ const data = {
             "Zombie Slayer": [
                 {"rank": 1, "player": "SphinxWraith", "quantity": "53,000,000+", "date": "17/06/2025"},
                 {"rank": 2, "player": "HeGzoStRqFe", "quantity": null, "date": "17/06/2025"},
-                {"rank": 3, "player": "Itzomkar1232891", "quantity": null, "date": "17/06/2025"},
-                {"rank": 4, "player": "DueBacon2007102", "quantity": null, "date": "17/06/2025"},
+                {"rank": 3, "player": "DueBacon2007102", "quantity": null, "date": "17/06/2025"},
+                {"rank": 4, "player": "Itzomkar1232891", "quantity": null, "date": "17/06/2025"},
                 {"rank": 5, "player": "Kg_lcky_01", "quantity": null, "date": "17/06/2025"},
                 {"rank": 6, "player": "SoundClover8088", "quantity": null, "date": "17/06/2025"},
                 {"rank": 7, "player": "StragglyBoat23", "quantity": null, "date": "17/06/2025"},
@@ -540,13 +540,13 @@ const data = {
                 {"rank": 10, "player": "Herejefferson", "quantity": null, "date": "17/06/2025"}
             ],
             "Wolf Slayer": [
-                {"rank": 1, "player": "SphinxWraith", "quantity": "6,000,000+", "date": "28/02/2025"},
-                {"rank": 2, "player": "Herejefferson", "quantity": "6,000,000+", "date": "28/02/2025"},
-                {"rank": 3, "player": "HeGzoStRqFe", "quantity": "3,000,000+", "date": "18/11/2024"},
-                {"rank": 4, "player": "Itzomkar1232891", "quantity": null, "date": "18/11/2024"},
-                {"rank": 5, "player": "Shakilbaby", "quantity": "2,500,000", "date": "09/03/2025"},
-                {"rank": 6, "player": "SoundClover8088", "quantity": null, "date": "09/03/2025"},
-                {"rank": 7, "player": "Duebacon2007102", "quantity": null, "date": "03/03/2025"},
+                {"rank": 1, "player": "SphinxWraith", "quantity": "10,000,000", "date": "16/09/2025"},
+                {"rank": 2, "player": "Herejefferson", "quantity": "6,200,000+", "date": "06/06/2025"},
+                {"rank": 3, "player": "HeGzoStRqFe", "quantity": "4,400,000+", "date": "06/06/2025"},
+                {"rank": 4, "player": "DueBacon2007102", "quantity": null, "date": "06/06/2024"},
+                {"rank": 5, "player": "Itzomkar1232891", "quantity": "2,500,000", "date": "06/06/2025"},
+                {"rank": 6, "player": "SoundClover8088", "quantity": null, "date": "06/06/2025"},
+                {"rank": 7, "player": "Shakilbaby", "quantity": null, "date": "03/03/2025"},
                 {"rank": 8, "player": "op_moraya5598", "quantity": "1,900,000", "date": "11/03/2025"},
                 {"rank": 9, "player": "uatitan580", "quantity": null, "date": "08/03/2025"},
                 {"rank": 10, "player": null, "quantity": null, "date": null}
@@ -554,3 +554,4 @@ const data = {
         }
     }
 };
+
